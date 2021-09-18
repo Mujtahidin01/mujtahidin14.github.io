@@ -8,17 +8,20 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <title>TukangCode</title>
+    <title>Portofolio | TukangCode</title>
   </head>
   <body>
     
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background-color: #34beb3" >
-      <div class="container">
-        <a class="navbar-brand" href="#">Mujtha</a>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background-color: #34beb3">
+      <div class="container" >
+        <a class="navbar-brand" href="#"><b>Tukang</b><i>Code</i></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -44,9 +47,9 @@
 
     <!-- Jumbotron -->
     <div class="jumbotron text-center">
-      <img src="img/1.jpg" alt="TukangCode" width="150" class="rounded-circle img-thumbnail">
-      <h1 class="display-4">Ahmad Mujtahidin</h1>
-      <p class="lead"> Mahasiswa UTM | Tukang Code</p>
+      <img src="img/1.jpg" alt="TukangCode" width="150" class="rounded-circle img-thumbnail" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="1000">
+      <h1 class="display-4" data-aos="fade-right" data-aos-duration="1000"><b>Ahmad Mujtahidin</b></h1>
+      <p class="lead" data-aos="fade-left" data-aos-duration="2000"> Mahasiswa UTM <b>|</b> Tukang Code</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L80,208C160,224,320,256,480,245.3C640,235,800,181,960,176C1120,171,1280,213,1360,234.7L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
     </div>
     <!-- Akhir Jumbotron -->
@@ -56,15 +59,15 @@
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>About Me</h2>
+            <h2><b>About Me</b></h2>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-4 fs-5 text-center">
-            <p> Nama saya Ahmad Mujtahidin, Saya berkuliah di Universitas Teknologi Mataram (UTM) dengan mengambil program studi Sistem Informasi Sekarang saya masih semester 7 tahun depan saya akan lulus.</p>
+          <div class="col-md-4 fs-5"  data-aos="fade-right"  data-aos-duration="1000">
+            <p align="justify"> Nama saya <b><i>Ahmad Mujtahidin</i></b>, Saya berkuliah di <b><i>Universitas Teknologi Mataram</i></b> (UTM) dengan mengambil program studi Sistem Informasi Sekarang saya masih semester 7 tahun depan saya akan lulus.</p>
           </div>
-          <div class="col-md-4 fs-5 text-center">
-            <p>Saya sagat senang beljar Web Development sudah banyak saya menyelesaikan projek mulai dari web sekola, web kantor desa, web rumah sakit dll. sekarang saya mau pokus untuk belajar Framwork Laravel. </p>
+          <div class="col-md-4 fs-5"  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="200">
+            <p align="justify">Saya sagat senang beljar Web Development sudah banyak saya menyelesaikan projek mulai dari web sekola, web kantor desa, web rumah sakit dll. sekarang saya mau pokus untuk belajar Framwork Laravel. </p>
           </div>
         </div>
       </div>
@@ -77,55 +80,47 @@
       <div class="container">
         <div class="row text-center">
           <div class="col mb-3">
-            <h2>My Projects</h2>
+            <h2><b>My Projects</b></h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card" style=";">
+            <div class="card" style=";" data-aos="flip-left" data-aos-duration="500">
               <img src="img/projek.png" class="card-img-top" alt="projects 1">
               <div class="card-body">
-                <p class="card-text">Pojek 1 ini saya membuat website Madu menggunakan HTML dan CSS</p>
+                <p class="card-text" align="justify"><i>Ini Merupakan Website Madu Yang Menawarkan Berbagai Jenis Madu Baik Itu dari Lombok ataupun luar Lombok. Website Ini Dibaut Dengan Menggunakan HTML, CSS, dan JavaScript.</i></p>
               </div>
             </div>
           </div>
            <div class="col-md-4 mb-3">
-            <div class="card" style=";">
+            <div class="card" style=";" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
               <img src="img/projek1.png" class="card-img-top" alt="projects 2">
               <div class="card-body">
-                <p class="card-text">Pojek 2 ini saya membuat website Madu menggunakan Framwork CodeIgniter 3</p>
-              </div>
-            </div>
-          </div>
-           <div class="col-md-4 mb-3">
-            <div class="card" style=";">
-              <img src="img/projek2.png" class="card-img-top" alt="projects 3">
-              <div class="card-body">
-                <p class="card-text">Pojek 3 ini saya membuat website Madu menggunakan Framwork CodeIgniter 3</p>
+                <p class="card-text" align="justify"><i>Ini Merupakan Projek Web Perpus yang Dibuat Untuk Perpustakaan Yang Ada Di SMAN 1 LINGSAR. Website Ini Dibaut Dengan Menggunakan Framwork CodeIgniter.</i></p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card" style=";">
+            <div class="card" style=";" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
               <img src="img/projek3.png" class="card-img-top" alt="projects 4">
               <div class="card-body">
-                <p class="card-text">Pojek 4 ini saya membuat website Madu menggunakan Framwork CodeIgniter 3</p>
-              </div>
-            </div>
-          </div>
-           <div class="col-md-4 mb-3">
-            <div class="card" style=";">
-              <img src="img/projek4.png" class="card-img-top" alt="projects 5">
-              <div class="card-body">
-                <p class="card-text">Pojek 5 ini saya membuat website Madu menggunakan Framwork CodeIgniter 3</p>
+                <p class="card-text" align="justify"><i>Website Ini Dibuat Untuk Desa Karang Bayan bagian Admin. Website Ini Dibaut Dengan Menggunakan Framwork CodeIgniter.</i></p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card" style=";">
-              <img src="img/projek5.png" class="card-img-top" alt="projects 5">
+            <div class="card" style=";" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
+              <img src="img/projek12.png" class="card-img-top" alt="projects 4">
               <div class="card-body">
-                <p class="card-text">Pojek 6 ini saya membuat website Madu menggunakan Framwork CodeIgniter 3</p>
+                <p class="card-text" align="justify"><i>Website Ini Dibuat Untuk Alumni IPA 3 SMAN 1 LINGSAR angkatan 2018. Website Ini Dibaut Dengan Menggunakan html, css, javascript.</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card" style=";" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
+              <img src="img/projek13.png" class="card-img-top" alt="projects 4">
+              <div class="card-body">
+                <p class="card-text" align="justify"><i>Website Ini Dibuat Untuk Masjid Washilatul Ibad. Website Ini Dibaut Dengan Menggunakan html, css, javascript.</i></p>
               </div>
             </div>
           </div>
@@ -135,16 +130,16 @@
     </section>
     <!-- Akhir Project -->
 
-    <!-- contact -->
-    <section id="contact">
+    <!-- komentar -->
+    <section id="komentar">
       <div class="container">
         <div class="row text-center">
           <div class="col mb-3">
-            <h2>Contact</h2>
+            <h2><b>Komentar</b></h2>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-up" data-aos-duration="100000">
             <form>
             <div class="mb-3">
               <label for="name" class="form-label">Nama lengkap</label>
@@ -165,7 +160,7 @@
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,128L48,144C96,160,192,192,288,197.3C384,203,480,181,576,186.7C672,192,768,224,864,218.7C960,213,1056,171,1152,170.7C1248,171,1344,213,1392,234.7L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     </section>
-    <!-- Akhir contact -->
+    <!-- Akhir komentar -->
 
     <!-- footer -->
     <footer class="bg-primary text-white pb-2 text-center">
@@ -174,6 +169,11 @@
     <!-- Akhir footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
   </body>
 </html>
